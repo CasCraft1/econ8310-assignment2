@@ -24,7 +24,7 @@ x = df.drop(['meal', 'DateTime', 'id'], axis=1)
 
 
 
-model = XGBClassifier(n_estimators=50, max_depth=3,
+model = XGBClassifier(n_estimators=200, max_depth=3,
 learning_rate=0.5, objective='binary:logistic')
 
 
