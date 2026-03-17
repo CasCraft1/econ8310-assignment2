@@ -41,6 +41,6 @@ testing['hour'] =  testing['DateTime'].dt.hour
 yt = testing['meal']
 xt = testing.drop(['meal', 'DateTime', 'id'], axis=1)
 
-predict = modelFit.predict(xt)
+pred = modelFit.predict(xt)
 
 
